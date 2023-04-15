@@ -95,7 +95,7 @@ while '-' in [cell for row in board for cell in row]:
     print_board(board)
     if turn == X:
         make_move(board, turn)
-        turn
+      
 else:
     print("It's O's turn.")
     row = int(input("Enter row: "))
